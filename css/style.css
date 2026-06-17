@@ -1,8 +1,3 @@
-/* =========================
-   WOMEN SAFETY — FULL STYLE.CSS
-   Clean responsive version: 1920 / 1440 / 1194 / 834 / 375
-========================= */
-
 @font-face {
     font-family: "Chicoree";
     src: url("Chicoree\ Em.\ Bold.otf") format("opentype");
@@ -78,10 +73,6 @@ ol {
     --transition: 0.32s ease;
 }
 
-/* =========================
-   COMMON
-========================= */
-
 .container {
     width: min(var(--container-width), calc(100% - var(--side-padding) * 2));
     margin-inline: auto;
@@ -109,10 +100,6 @@ section {
     text-align: left;
     margin-bottom: 40px;
 }
-
-/* =========================
-   BUTTONS
-========================= */
 
 .btn {
     display: inline-flex;
@@ -164,10 +151,6 @@ section {
     transform: translateY(-2px) scale(1.03);
     box-shadow: var(--shadow-pink);
 }
-
-/* =========================
-   HEADER
-========================= */
 
 .header {
     position: fixed;
@@ -276,9 +259,6 @@ section {
     display: none;
 }
 
-/* =========================
-   HERO
-========================= */
 
 .hero {
     padding-top: 240px;
@@ -394,9 +374,6 @@ section {
     width: 300px;
 }
 
-/* =========================
-   IMPORTANCE
-========================= */
 
 .importance {
     overflow: visible;
@@ -464,9 +441,6 @@ section {
     overflow-wrap: anywhere;
 }
 
-/* =========================
-   SOS
-========================= */
 
 .sos-content {
     display: grid;
@@ -562,9 +536,6 @@ section {
     transform: scale(1.01);
 }
 
-/* =========================
-   MAP
-========================= */
 
 .map-wrapper {
     position: relative;
@@ -609,9 +580,6 @@ section {
 .pin-9 { top: 28%; left: 56%; }
 .pin-10 { top: 17%; left: 45%; }
 
-/* =========================
-   ROUTE
-========================= */
 
 .route-section {
     position: relative;
@@ -687,9 +655,6 @@ section {
     transform: translateY(0);
 }
 
-/* =========================
-   COMMUNITY
-========================= */
 
 .community-section,
 .community-section .container,
@@ -871,10 +836,6 @@ section {
     text-align: right;
 }
 
-/* =========================
-   PREMIUM
-========================= */
-
 .premium-grid {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -925,10 +886,6 @@ section {
     text-align: right;
 }
 
-/* =========================
-   DOWNLOAD
-========================= */
-
 .download-section {
     text-align: center;
 }
@@ -942,9 +899,6 @@ section {
     margin: 0 auto 40px;
 }
 
-/* =========================
-   FOOTER
-========================= */
 
 .footer {
     padding: 100px 0 40px;
@@ -1026,9 +980,6 @@ section {
     opacity: 0.6;
 }
 
-/* =========================
-   JS STATES / ANIMATION
-========================= */
 
 .reveal {
     opacity: 0;
@@ -1041,9 +992,6 @@ section {
     transform: translateY(0);
 }
 
-/* =========================
-   1440px
-========================= */
 
 @media (max-width: 1440px) {
     :root {
@@ -1435,10 +1383,6 @@ section {
         font-size: 14px;
     }
 }
-
-/* =========================
-   1194px
-========================= */
 
 @media (max-width: 1194px) {
     :root {
@@ -1877,9 +1821,6 @@ section {
     }
 }
 
-/* =========================
-   834px
-========================= */
 
 @media (max-width: 834px) {
     :root {
@@ -2370,10 +2311,6 @@ section {
     }
 }
 
-/* =========================
-   MOBILE — 600px and below, includes 375px
-========================= */
-
 @media (max-width: 600px) {
     :root {
         --container-width: 343px;
@@ -2655,10 +2592,6 @@ section {
         gap: 18px;
         text-align: left;
     }
-
-    /* Превращаем sos-text и sos-action в "невидимые" обёртки,
-       чтобы их дети стали прямыми flex-элементами .sos-content.
-       Тогда можно расставить order: текст1, текст2, кнопка, плашки. */
 
     .sos-text,
     .sos-action {
@@ -2982,19 +2915,12 @@ section {
     }
 }
 
-/* =========================
-   375px exact polish
-========================= */
-
 @media (max-width: 375px) {
     :root {
         --side-padding: 16px;
     }
 }
 
-/* =========================
-   360px safety
-========================= */
 
 @media (max-width: 360px) {
     :root {
